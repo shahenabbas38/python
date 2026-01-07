@@ -3,4 +3,3 @@ uvicorn
 pandas
 numpy
 pydantic
-python-3.11
