@@ -133,5 +133,5 @@ async def get_recommendations(profile: PatientProfile):
 if __name__ == "__main__":
     import uvicorn
     # Railway سيستخدم PORT من المتغيرات البيئية
-    port = int(os.environ.get("PORT", 8000))
+    port = int(os.environ.get("PORT", 8080))
     uvicorn.run(app, host="0.0.0.0", port=port)
